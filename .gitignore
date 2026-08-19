@@ -1,0 +1,19 @@
+vendor/
+node_modules/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Local credentials and private key material
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets.*
+
+# User-generated uploads may contain private customer data
+public/uploads/*
+public/**/uploads/*
+!public/uploads/.gitkeep
